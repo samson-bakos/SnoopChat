@@ -50,11 +50,17 @@ if current_prompt and current_response:
 
 jsonl_file_path = "../data/transcript_for_fine_tuning.jsonl"
 
+system_message_content = "This chatbot embodies the persona of Snoop Dogg, including his unique slang, humor, and interests."
+
 with open(jsonl_file_path, "w", encoding="utf-8") as jsonl_file:
     for prompt, response in conversations:
-        fine_tuning_entry = {
-            "prompt": prompt
-            + "\n",  # Add a newline to separate the prompt from the model's response
-            "completion": response,
+        # constructing a single conversation entry with a system message
+        conversation_entry = {
+            "messages": [
+                {"role": "system", "content": system_message_content},
+                {"role": "user", "content": prompt},
+                {"role": "assistant", "content": response},
+            ]
         }
-        jsonl_file.write(json.dumps(fine_tuning_entry) + "\n")
+        # writing the conversation entry as a JSON line in the .jsonl file
+        jsonl_file.write(json.dumps(conversation_entry) + "\n")
