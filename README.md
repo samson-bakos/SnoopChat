@@ -6,7 +6,7 @@ Please note, due to limited training data availability, SnoopChat is a work in p
 
 ## Overview
 
-SnoopChat combines natural language processing techniques cutting-edge voice synthesis to create a virtual agent that embodies the personality and cadence of Snoop Dogg. The system operates through a web interface, allowing users to interact with Snoop Dogg's virtual counterpart by typing messages.
+SnoopChat combines natural language processing techniques with voice synthesis programs to create a virtual agent that embodies the personality and cadence of Snoop Dogg. The system operates through a web interface, allowing users to interact with Snoop Dogg's virtual counterpart by typing messages.
 
 ## Project Process
 
