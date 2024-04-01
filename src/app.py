@@ -4,9 +4,9 @@ from gtts import gTTS
 from func import *
 from charactr_api import CharactrAPISDK, Credentials
 
-openai_api_key = get_api_key("/Users/samsonbakos/keys/OpenAI/key.txt")
-charactr_api_key = get_api_key("/Users/samsonbakos/keys/gemeloAI/apikey.txt")
-chacactr_client_key = get_api_key("/Users/samsonbakos/keys/gemeloAI/clientkey.txt")
+openai_api_key = st.secrets["OPENAI_API_KEY"]
+charactr_api_key = st.secrets["CHARACTR_API_KEY"]
+chacactr_client_key = st.secrets["CHARACTR_CLIENT_KEY"]
 
 openai_client = OpenAI(api_key=openai_api_key)
 sdk = CharactrAPISDK(
@@ -16,7 +16,7 @@ sdk = CharactrAPISDK(
 st.title("SnoopChat")
 st.text("Chat with a Snoop Dogg AI persona")
 
-voice = st.selectbox("Select a Voice:", ["Basic Text to Speech", "Snoop Dogg Charactr"])
+voice = st.selectbox("Select a Voice:", ["Snoop Dogg", "Basic Text to Speech"])
 
 user_input = st.text_input("Enter your message:")
 
@@ -48,7 +48,7 @@ if st.button("Send"):
 
             autoplay_audio(tts_file)
 
-        if voice == "Snoop Dogg Charactr":
+        if voice == "Snoop Dogg":
             # replace with correct id later
             snoop_voice_id = 143
             result = sdk.tts.convert(snoop_voice_id, response_text)

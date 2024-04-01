@@ -1,7 +1,5 @@
 import base64
 import streamlit as st
-import requests
-import json
 
 
 def autoplay_audio(file_path: str):
