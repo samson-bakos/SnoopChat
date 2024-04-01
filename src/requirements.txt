@@ -1,0 +1,3 @@
+openai
+gtts
+charactr_api
