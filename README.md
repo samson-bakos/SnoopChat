@@ -1,5 +1,7 @@
 # SnoopChat
 
+**PLEASE NOTE**: Snoop Chat is currently under construction and the Snoop voice agent has been replaced by a placeholder agent
+
 Welcome to SnoopChat! This is a text-to-speech system that responds in the style and voice of Snoop Dogg. You can try it live at [SnoopChat](https://snoopchat.streamlit.app).
 
 ## Overview
