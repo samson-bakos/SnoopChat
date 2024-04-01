@@ -1,10 +1,10 @@
 # SnoopChat
 
-Welcome to SnoopChat! This project brings to you a unique text-to-speech system that responds in the style and voice of the iconic Snoop Dogg. You can experience it live at [SnoopChat](https://snoopchat.streamlit.app).
+Welcome to SnoopChat! This is a text-to-speech system that responds in the style and voice of Snoop Dogg. You can try it live at [SnoopChat](https://snoopchat.streamlit.app).
 
 ## Overview
 
-SnoopChat is a project that combines advanced natural language processing techniques with cutting-edge voice synthesis to create a virtual agent that embodies the personality and cadence of Snoop Dogg. The system operates through a web interface, allowing users to interact with Snoop Dogg's virtual counterpart by typing messages.
+SnoopChat combines natural language processing techniques cutting-edge voice synthesis to create a virtual agent that embodies the personality and cadence of Snoop Dogg. The system operates through a web interface, allowing users to interact with Snoop Dogg's virtual counterpart by typing messages.
 
 ## Project Process
 
@@ -31,6 +31,6 @@ SnoopChat is a project that combines advanced natural language processing techni
 
 ## Getting Started
 
-To experience SnoopChat, simply visit [SnoopChat](https://snoopchat.streamlit.app) and start typing your messages to interact with Snoop Dogg's virtual counterpart.
+To try SnoopChat, simply visit [SnoopChat](https://snoopchat.streamlit.app) and start typing your messages to interact with Snoop Dogg's virtual counterpart.
 
-Thank you for using SnoopChat! If you have any questions or feedback, feel free to reach out to the project maintainers.
+Thank you for using SnoopChat! If you have any questions or feedback, feel free to reach out to the project maintainer at samsonbakos@hotmail.com.
