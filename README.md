@@ -8,8 +8,6 @@ SnoopChat combines natural language processing techniques cutting-edge voice syn
 
 ## Project Process
 
-### Data Collection
-
 1. **Extracting Youtube Transcripts**: Initially, transcripts from SnoopDogTV's GGN segments were extracted. This data was processed using OpenAI's GPT-3.5 model to label speakers for each segment. However, the quality of this data proved to be lower than desired.
 
 2. **Utilizing Long Interviews**: Recognizing the need for higher quality data, a long interview with Snoop Dogg conducted by Larry King was utilized. Using regex, the text was segmented into host prompts and Snoop's responses, resulting in improved data quality.
