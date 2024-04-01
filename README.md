@@ -2,6 +2,8 @@
 
 Welcome to SnoopChat! This is a text-to-speech system that responds in the style and voice of Snoop Dogg. You can try it live at [SnoopChat](https://snoopchat.streamlit.app).
 
+Please note, due to limited training data availability, SnoopChat is a work in progress. The Chatbot was fine tuned with actual transcripts of Snoop Dogg in order to capture a more authentic representation of his speech, rather than the highly exaggerated, stereotypical version given when simply asking a GPT model to speak like Snoop Dogg. However, because it was trained on only ~250 prompts from interviews, it may be overfit to this training data. Improvements could easily be made by rerunning the fine tuning scripts with a larger set of transcripts, if available. 
+
 ## Overview
 
 SnoopChat combines natural language processing techniques cutting-edge voice synthesis to create a virtual agent that embodies the personality and cadence of Snoop Dogg. The system operates through a web interface, allowing users to interact with Snoop Dogg's virtual counterpart by typing messages.
