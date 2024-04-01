@@ -49,9 +49,11 @@ if st.button("Send"):
             autoplay_audio(tts_file)
 
         if voice == "Snoop Dogg":
-            # replace with correct id later
-            snoop_voice_id = 143
-            result = sdk.tts.convert(snoop_voice_id, response_text)
+
+            snoop_voice_id = 1745
+            result = sdk.tts.convert(
+                snoop_voice_id, response_text, {"cloned_voice": True}
+            )
             if "data" in result:
                 audio_content = result["data"]
                 audio_file = "response_charactr.mp3"
